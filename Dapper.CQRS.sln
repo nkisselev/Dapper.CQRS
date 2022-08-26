@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.CQRS", "Dapper.CQRS\Dapper.CQRS.csproj", "{DA949737-3D7A-4E13-B842-428A8D0AFB4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3DE04BA0-92B1-4828-9AAD-EE013BCD3ADD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.CQRS.Tests", "tests\Dapper.CQRS.Tests\Dapper.CQRS.Tests.csproj", "{780E9D8D-A17F-4CFE-ADC8-B55DAADFFA03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA949737-3D7A-4E13-B842-428A8D0AFB4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA949737-3D7A-4E13-B842-428A8D0AFB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA949737-3D7A-4E13-B842-428A8D0AFB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA949737-3D7A-4E13-B842-428A8D0AFB4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{780E9D8D-A17F-4CFE-ADC8-B55DAADFFA03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{780E9D8D-A17F-4CFE-ADC8-B55DAADFFA03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{780E9D8D-A17F-4CFE-ADC8-B55DAADFFA03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{780E9D8D-A17F-4CFE-ADC8-B55DAADFFA03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{780E9D8D-A17F-4CFE-ADC8-B55DAADFFA03} = {3DE04BA0-92B1-4828-9AAD-EE013BCD3ADD}
+	EndGlobalSection
+EndGlobal
